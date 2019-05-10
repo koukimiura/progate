@@ -13,5 +13,5 @@ User.create(name: "tomoko", email: "tomoko@tomoko", password: "222", image_name:
 User.create(name: "ya", email: "ya@ya", password: "333", image_name: "default_user.jpg")
 
 
-# Post.delete_all
-# Post.create(content: "getgtg", user_id: 1)
+ Post.delete_all
+Post.create(content: "getgtg", user_id: 1)
